@@ -20,7 +20,7 @@ public class LogoutServlet extends HttpServlet {
      if (session != null) {
          session.invalidate(); // セッションの無効化
      }
-     response.sendRedirect("login.jsp"); // ログイン画面にリダイレクト
+     response.sendRedirect("index,.jsp"); // ログイン画面にリダイレクト
  }
 }
 
